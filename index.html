@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalyani Rahane| Portfolio</title>
+  
+  <!-- Font Awesome -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+<!-- Devicon (for JDBC, Eclipse) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+/>
+
+<!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="bubble-background"></div>
+
+
+  <nav>
+    <div class="logo">Kalyani Rahane</div>
+    <ul class="nav-links">
+  <li><a href="#profile">Home</a></li>
+   <li><a href="#about">About Me</a></li>
+  <li><a href="#skills">Skills</a></li>
+   <li><a href="#certificates">Certificates</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+ 
+</ul>
+
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="menu-links" id="mobile-menu">
+  <a href="#profile" onclick="toggleMenu()">Home</a>
+  <a href="#about" onclick="toggleMenu()">About Me</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#projects" onclick="toggleMenu()">Projects</a>
+  <a href="#certificates" onclick="toggleMenu()">Certificates</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+  </nav>
+
+  <!-- Profile -->
+  <section id="profile">
+    <img src="kalyani photo29.jpeg" alt="Kalyani Rahane" class="profile-photo" />
+    <div class="profile-text">
+  <h1 class="title">Kalyani Rahane</h1>
+  <p style="font-size: 1.2rem; margin-top: 0.3rem;">I'm a <span id="animated-text">Java Developer</span></p>
+  <p style="max-width: 600px; margin: 1rem auto; font-size: 1rem;">
+    I am a passionate Java and Web Developer with a strong foundation in backend systems and frontend development. I love building responsive, user-centric websites and continuously learning new technologies.
+  </p>
+  <div class="btn-container">
+    <a href="Kalyani-Rahane-Resume.pdf" download class="btn btn-color-1">Download CV</a>
+    <a href="#contact" class="btn btn-color-2">Contact Me</a>
+  </div>
+  <div id="socials-container" style="margin-top: 1.5rem;">
+    <!-- your social icons stay the same -->
+  </div>
+</div>
+
+    <div id="socials-container" style="margin-top: 1.5rem;">
+      <a href="https://www.linkedin.com/in/kalyani-rahane-8390a3366/" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn" class="icon" />
+      </a>
+      <a href="https://github.com/Kalyani29Rahane" target="_blank">
+        <img src="github icon.svg" alt="GitHub" class="icon" />
+      </a>
+      <a href="https://www.instagram.com/rahanekalyani/" target="_blank">
+  <img src="instagram.png" alt="Instagram" class="icon"/>
+</a>
+
+<a href="mailto:kalyanirahane477@gmail.com" target="_blank">
+  <img src="mail.png" alt="Email" class="icon"/>
+</a>
+
+
+    </div>
+  </section>
+
+ <!-- About Me --> 
+  <section id="about">
+  <h2 class="title">About Me</h2>
+  <div class="about-container">
+    <div class="about-left animate-about-left">
+      <img src="kalyani photo29.jpeg" alt="Kalyani Rahane" class="about-photo" />
+    </div>
+    <div class="about-right animate-about-right">
+      <p>
+  I have recently completed my Bachelor Degree from <strong>SMBST  College</strong>, specialized in
+  <strong>Computer Science</strong>, with an overall
+  <strong>CGPA of 9.16</strong>.
+</p>
+<p>
+  I’m passionate about <strong>backend development</strong> using <strong>Java</strong> and databases like
+  <strong>MySQL</strong>, and I also enjoy crafting responsive and interactive websites using
+  <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.
+</p>
+<p>
+  In addition to my technical skills, I have experience working with <strong>JDBC</strong>,
+  <strong>Git</strong>, and development environments like <strong>Eclipse</strong>.
+</p>
+<p>
+  I’m a <strong>quick learner</strong>, enjoy solving <strong>real-world problems</strong>, and love exploring
+  new tools and technologies.
+</p>
+<p>
+  My goal is to grow as a <strong>Full-Stack Developer</strong>, contribute to impactful projects, and
+  be a valuable part of a <strong>dynamic development team</strong>.
+</p>
+
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Skills -->
+<section id="skills">
+  <h2 class="title">Skills</h2>
+  <div class="skills-grid">
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-brands fa-java skill-icon"></i>
+      <p>Java</p>
+      <div class="skill-tooltip">90%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-brands fa-html5 skill-icon"></i>
+      <p>HTML</p>
+      <div class="skill-tooltip">95%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-brands fa-css3-alt skill-icon"></i>
+      <p>CSS</p>
+      <div class="skill-tooltip">85%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-brands fa-js skill-icon"></i>
+      <p>JavaScript</p>
+      <div class="skill-tooltip">75%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-solid fa-database skill-icon"></i>
+      <p>MySQL</p>
+      <div class="skill-tooltip">85%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="devicon-jdbc-plain-wordmark skill-icon"></i>
+      <p>JDBC</p>
+      <div class="skill-tooltip">85%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="fa-brands fa-github skill-icon"></i>
+      <p>GitHub</p>
+      <div class="skill-tooltip">85%</div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-content">
+      <i class="devicon-eclipse-plain-wordmark skill-icon"></i>
+      <p>Eclipse</p>
+      <div class="skill-tooltip">90%</div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+  <section id="certificates">
+  <h2 class="title">Certificates</h2>
+  <div class="certificate-grid">
+    <img src="certificate1.jpeg" alt="Certificate 1" />
+    <img src="certificate22.jpeg.jpeg" alt="Certificate 2" />
+    <img src="certificate33.jpeg.jpeg" alt="Certificate 3" />
+    <!-- Add more certificates as needed -->
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <h2 class="title">Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="portfolio.jpeg" alt="Project 1" />
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+      <div class="btn-container">
+        <a href="https://github.com/Kalyani29Rahane/My-Portfolio" target="_blank" class="btn btn-color-2">GitHub</a>
+        <a href="https://yourportfolio.live" target="_blank" class="btn btn-color-1">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="dashboard photo1.jpeg" alt="Project 2" />
+      <h3>Notes Portal</h3>
+      <p>Java & MySQL using JDBC(Modular Approach) managing notes records.</p>
+      <div class="btn-container">
+        <a href="https://github.com/Kalyani29Rahane/Notes-Portal" target="_blank" class="btn btn-color-2">GitHub</a>
+        <a href="#" class="btn btn-color-1">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Add more projects as needed -->
+  </div>
+</section>
+
+<!--Contact Section-->
+ <section id="contact">
+  <h2 class="title">Contact Me</h2>
+
+  <!-- Message container -->
+  <div id="message-sent" class="message" style="display: none; color: green; text-align: center; font-weight: bold;">
+    ✅ Message Sent Successfully!
+  </div>
+
+  <div class="contact-container">
+    <div class="contact-left slide-left">
+      <img src="kalyani photo29.jpeg" alt="Kalyani Rahane" class="contact-photo" />
+    </div>
+    <div class="contact-right slide-right">
+      <form class="contact-form" onsubmit="return showMessage(event)">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-color-1">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer>
+    © 2025 Kalyani Rahane. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
