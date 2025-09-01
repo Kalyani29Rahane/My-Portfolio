@@ -33,7 +33,7 @@ About Page:
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0b8e3887-cc57-41ac-a1fd-76859a117e20" />
 
 Skill Section:
-<img width="1357" height="768" alt="image" src="https://github.com/user-attachments/assets/7714af6a-d7ea-462b-8e46-0bc1c0fa6cc5" />
+<img width="1366" height="765" alt="image" src="https://github.com/user-attachments/assets/1ae74b59-25ab-482f-8ac8-fa9ba1d9fde9" />
 
 
 Certificate:
